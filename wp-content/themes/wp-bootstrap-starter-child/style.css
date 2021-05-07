@@ -1,0 +1,483 @@
+/*
+Theme Name: 	WP Bootstrap Starter Child Theme
+Theme URI: 		https://defstudio.it
+Description:    Tema Child per il tema WP Bootstrap Starter
+Author:         Giulia
+Author URI:     https://www.studiocasaortanova.it/
+Template:       wp-bootstrap-starter
+Version:        1.2
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body {
+  overflow-x: hidden;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+header#masthead {
+    background: #ffffff;
+
+}
+
+#masthead .navbar-nav > li > a.nav-link {
+    color: #1d3882 !important;
+    font-size: 17px !important;
+}
+
+.row_introduction img{
+    width: 100%;
+    height: 513px;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.8);
+}
+
+.row_presentation i {
+    font-size: 32px;
+    color: #cdc8c8;
+}
+
+.row_presentation h6 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.presentation_txt {
+    white-space: pre-line;
+    color: #ffffff;
+}
+
+.assistenza {
+    background: #2e6285;
+}
+
+.servizi {
+    background: #0d446a;
+}
+
+.chi_siamo {
+    background: #0c2c42;
+}
+
+/* Home */
+.home_search_form > .searchandfilter > ul > li {
+    display: inline-block;
+    vertical-align: top;
+    /*padding: 0 20px;*/
+}
+
+.home_search_form span {
+    padding: 2.45px;
+}
+
+.centered {
+    color:#ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Home */
+
+.home_search_form {
+    position: relative;
+}
+
+.home_search_form .searchandfilter ul li:first-child select.sf-input-select {
+    border-radius: 10px 0 0 10px !important;
+    border: 0 !important;
+    border-right: 1px solid #000000 !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+}
+
+.home_search_form .searchandfilter ul li:nth-child(2) label.sf-input-range-number {
+    border-radius: 0 !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+}
+
+.home_search_form .searchandfilter ul li:nth-child(2) div {
+    background: #ffffff;
+    color: #0a0b0d;
+    padding: 2px;
+}
+
+.home_search_form .searchandfilter ul li:nth-child(3) div {
+    background: #ffffff;
+    color: #0a0b0d;
+    padding: 2px;
+}
+
+.sf-input-range-number {
+    border: #7e8689 !important;
+}
+
+.home_search_form .searchandfilter ul li:nth-child(3) select.sf-input-select {
+    border-radius: 0 !important;
+    border: none;
+    border-left: 1px solid #000000 !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+}
+
+.home_search_form .searchandfilter ul li:nth-child(4) input {
+    background: #dc3545 !important;
+    border: 0 !important;
+    color: #ffff !important;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 2px;
+    position: absolute;
+    top: 85px;
+    padding: 0 15px;
+    right: 250px;
+
+}
+
+
+.home_search_form .searchandfilter ul li select.sf-input-select {
+    padding:10px 5px !important;
+}
+
+.home_search_form .searchandfilter ul li h4 {
+    color: #ffffff;
+    background: #dc3545;
+    text-align: center;
+}
+
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: none;
+    border-bottom: 3px solid #dc3545;
+    /*height: calc(3rem + 2px) !important;*/
+    border-radius:0;
+    padding-right: 3px;
+
+}
+
+
+.row_annunci h6 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1d3882;
+}
+
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
+
+.text-uppercase {
+    color: #1d3882;
+}
+
+.text-muted {
+    font-size: 15px;
+}
+
+footer i{
+    color: #dc3545;
+}
+
+
+/* annunci */
+.annunci_search {
+  background: #d8d9e1;
+  border-radius: 0 20px 20px 0;
+  color: #ffffff;
+  max-height: 530px;
+  min-height: 230px;
+}
+
+
+.annunci_search .searchandfilter ul li h4 {
+    /* color: #ffffff; */
+    padding-top: 10px;
+}
+
+
+.annunci_search .searchandfilter ul li:nth-child(5) input {
+  background: #526e91 !important;
+  border: 0 !important;
+  color: #ffff !important;
+  margin-top: 40px !important;
+  width: 24%;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 2px;
+}
+
+
+.annunci_search .searchandfilter ul li select.sf-input-select {
+    padding:5px 5px !important;
+    border-radius: 4px;
+}
+
+/* contatti */
+
+.header_contatti img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.header_contatti h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 62px;
+    text-align: center;
+    line-height: 1;
+}
+
+.header_contatti small {
+    color: #66D4FD;
+    font-size:1rem
+}
+
+.help h1 {
+    font-size:1.5rem;
+    font-weight:bold;
+    color:#101943;
+}
+
+.help p {
+    white-space:pre-line
+}
+
+.vieni_in_agenzia h1 {
+    font-size:1.5rem;
+    font-weight:bold;
+    color:#101943;
+}
+
+.google_map_contatti iframe {
+    width: 100%;
+    height: 640px;
+    border-radius: 0 30px 30px 0 ;
+}
+
+.contatti_gravity {
+    background: #1D3882;
+    border-radius: 30px 0 0 30px;
+    color:#ffffff;
+    max-height: 640px;
+    padding-left: 10px;
+}
+
+.contatti_gravity .gfield {
+    margin-top: 5px !important;
+}
+
+.contatti_gravity .gfield_label {
+    margin:5px 0;
+    line-height:1 !important
+}
+
+.contatti_gravity .ginput_container input, .contatti_gravity .ginput_container textarea {
+    border-radius:10px !important
+}
+
+.contatti_gravity .gform_footer.top_label {
+    margin:5px 0 !important;
+    padding:0 !important;
+    text-align:center;
+}
+
+.contatti_gravity .gform_button {
+    background:#101943;
+    color:#ffffff;
+    border:1px solid #ffffff;
+    border-radius:10px;
+    padding:2px 10px;
+}
+
+.contatti_gravity .ginput_container.ginput_container_consent {
+    margin-top:-5px !important
+}
+
+.google_map iframe {
+    border-radius: 30px !important;
+    min-height: 400px;
+}
+
+
+
+.form-group.info_annuncio {
+    padding-bottom: 10px;
+}
+
+.info_annuncio label {
+    padding-right: 10px;
+}
+
+.page-title {
+    color: #233882;
+}
+
+
+/* single annunci */
+
+p.field.tour_day_schedule {
+    white-space: pre-line;
+}
+
+.single_pacchetti_img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.indicators_pacchetti {
+    position:relative !important;
+}
+
+.indicators_pacchetti li.carousel-indicator {
+    width:50px;
+    height:50px
+}
+
+img.thumb_pacchetti_indicators {
+    height:50px;
+    object-fit: cover;
+    border-radius:10px;
+}
+
+.type-pacchetti {
+    margin-top:20px;
+}
+
+.col-12.titolo_pacchetto {
+    color: #223788;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.col-12.head_descrizione {
+    color: #223788;
+}
+
+.col-12.pacchetto_descrizione p {
+    font-size: 1rem;
+    white-space: pre-line;
+}
+
+.row.row_info {
+    width: 100% !important;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+
+.info_aggiuntive i {
+  color: #DC3545;
+
+}
+
+.agg {
+  font-weight: bold;
+  padding-left: 7px;
+}
+
+
+
+.line {
+  border-top-width: 1px !important;
+  border-top-style: solid !important;
+  border-top-color: rgb(221, 221, 221);
+  padding: 10px;
+}
+
+
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+    .row_reverse{
+      flex-direction: column-reverse;
+    }
+
+    .home_search_form {
+      padding-right: 50px;
+    }
+
+    .home_search_form .searchandfilter ul li:nth-child(1) select.sf-input-select {
+        border-radius: 0 !important;
+    }
+
+    .home_search_form .searchandfilter ul li:nth-child(2)  {
+        border-radius: 0 !important;
+        border: 0 !important;
+        width: 190px;
+    }
+
+    .home_search_form .searchandfilter ul li:nth-child(2) input.sf-input-range-number {
+      text-align: center;
+    }
+
+    .home_search_form .searchandfilter ul li:nth-child(3) div.sf-meta-range {
+      text-align: center;
+    }
+
+    .home_search_form .searchandfilter ul li:nth-child(3)  {
+        border-radius: 0 !important;
+        border: 0 !important;
+        width: 190px;
+    }
+
+    .home_search_form .searchandfilter ul li:nth-child(4) input  {
+        top: 251px !important;
+        right: 169px !important;
+    }
+
+    .contatti_gravity, .progetta_gravity {
+        max-height:100% !important;
+        border-radius:20px !important;
+    }
+
+    .google_map_contatti iframe {
+      border-radius: 20px !important;
+    }
+
+  	html, body {
+      overflow-x: hidden;
+    }
+
+      body {
+      position: relative
+    }
+}
+
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #1A4668;
+    }
+}

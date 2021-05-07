@@ -1,0 +1,211 @@
+# Translation of Plugins - Easy WP SMTP - Development (trunk) in Italian
+# This file is distributed under the same license as the Plugins - Easy WP SMTP - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-08 16:27:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Easy WP SMTP - Development (trunk)\n"
+
+#: class-easywpsmtp-admin.php:307
+msgid "STARTTLS"
+msgstr "STARTTLS"
+
+#: class-easywpsmtp-admin.php:301
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#. Author of the plugin
+msgid "wpecommerce, alexanderfoxc"
+msgstr "wpecommerce, alexanderfoxc"
+
+#: class-easywpsmtp-admin.php:591
+msgid "Rate Us"
+msgstr "Valutaci"
+
+#: class-easywpsmtp-admin.php:584
+msgid "Support Forum"
+msgstr "Forum di supporto"
+
+#: class-easywpsmtp-admin.php:348 class-easywpsmtp-admin.php:411
+#: class-easywpsmtp-admin.php:468 class-easywpsmtp-admin.php:520
+msgctxt "\"Note\" as in \"Note: keep this in mind\""
+msgid "Note:"
+msgstr "Nota:"
+
+#: class-easywpsmtp-admin.php:382
+msgid "Block all emails"
+msgstr "Blocca tutte le email"
+
+#: class-easywpsmtp-admin.php:219
+msgid "SMTP Settings"
+msgstr "Impostazioni SMTP"
+
+#: easy-wp-smtp.php:455 class-easywpsmtp-admin.php:112
+msgid "Nonce check failed."
+msgstr "Nonce non riuscito."
+
+#: class-easywpsmtp-admin.php:367
+msgid "Don't Replace \"From\" Field"
+msgstr "Non sostituire il campo \"Da\""
+
+#: class-easywpsmtp-admin.php:261
+msgid "Reply-To Email Address"
+msgstr "Indirizzo email di risposta"
+
+#: class-easywpsmtp-admin.php:233
+msgid "SMTP Configuration Settings"
+msgstr "Impostazioni di configurazione SMTP"
+
+#: class-easywpsmtp-admin.php:528
+msgid "Enter the recipient's email address"
+msgstr "Inserisci l'indirizzo email del destinatario"
+
+#: easy-wp-smtp.php:429
+msgid "Please configure your SMTP credentials in the <a href=\"%s\">settings menu</a> in order to send email using Easy WP SMTP plugin."
+msgstr "Si prega di configurare le credenziali SMTP nel <a href=\"%s\"> menu Impostazione </a> al fine di inviare e-mail utilizzando Easy WP SMTP."
+
+#: class-easywpsmtp-admin.php:353 class-easywpsmtp-admin.php:418
+msgid "Save Changes"
+msgstr "Salva modifiche"
+
+#: class-easywpsmtp-admin.php:525
+msgid "To"
+msgstr "A"
+
+#: class-easywpsmtp-admin.php:332
+msgid "Yes"
+msgstr "Sì"
+
+#: class-easywpsmtp-admin.php:326
+msgid "No"
+msgstr "No"
+
+#: class-easywpsmtp-admin.php:532
+msgid "Subject"
+msgstr "Oggetto"
+
+#: class-easywpsmtp-admin.php:312
+msgid "SMTP Port"
+msgstr "Porta SMTP"
+
+#: class-easywpsmtp-admin.php:315
+msgid "The port to your mail server"
+msgstr "La porta al server di posta"
+
+#: class-easywpsmtp-admin.php:319
+msgid "SMTP Authentication"
+msgstr "Autenticazione SMTP"
+
+#: class-easywpsmtp-admin.php:333
+msgid "This options should always be checked 'Yes'"
+msgstr "Questa opzione deve essere sempre impostata su ' Sì'"
+
+#: class-easywpsmtp-admin.php:337
+msgid "SMTP Username"
+msgstr "Nome Utente SMTP"
+
+#: class-easywpsmtp-admin.php:340
+msgid "The username to login to your mail server"
+msgstr "Il nome utente per il login al server di posta"
+
+#: class-easywpsmtp-admin.php:344
+msgid "SMTP Password"
+msgstr "Password SMTP"
+
+#: class-easywpsmtp-admin.php:347
+msgid "The password to login to your mail server"
+msgstr "La password per il login al server di posta"
+
+#: class-easywpsmtp-admin.php:539
+msgid "Message"
+msgstr "Messaggio"
+
+#: class-easywpsmtp-admin.php:535
+msgid "Enter a subject for your message"
+msgstr "Inserisci l'oggetto del tuo messaggio"
+
+#: class-easywpsmtp-admin.php:547
+msgid "Send Test Email"
+msgstr "Invia una mail di Test"
+
+#. Plugin URI of the plugin
+msgid "https://wp-ecommerce.net/easy-wordpress-smtp-send-emails-from-your-wordpress-site-using-a-smtp-server-2197"
+msgstr "https://wp-ecommerce.net/easy-wordpress-smtp-send-emails-from-your-wordpress-site-using-a-smtp-server-2197"
+
+#. Description of the plugin
+msgid "Send email via SMTP from your WordPress Blog"
+msgstr "Invia email via SMTP dal tuo sito Wordpress"
+
+#. Author URI of the plugin
+msgid "https://wp-ecommerce.net/"
+msgstr "https://wp-ecommerce.net/"
+
+#: class-easywpsmtp-admin.php:308
+msgid "For most servers SSL/TLS is the recommended option"
+msgstr "Per la maggior parte dei server SSL/TLS è l'opzione consigliata"
+
+#: easy-wp-smtp.php:490 easy-wp-smtp.php:498
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: class-easywpsmtp-admin.php:247
+msgid "From Name"
+msgstr "Nome mittente"
+
+#: class-easywpsmtp-admin.php:240
+msgid "From Email Address"
+msgstr "Indirizzo email mittente"
+
+#: class-easywpsmtp-admin.php:179
+msgid "Settings saved."
+msgstr "Impostazioni salvate."
+
+#: class-easywpsmtp-admin.php:295
+msgid "None"
+msgstr "Nessuno"
+
+#. Plugin Name of the plugin
+#: class-easywpsmtp-admin.php:59
+msgid "Easy WP SMTP"
+msgstr "Easy WP SMTP"
+
+#: class-easywpsmtp-admin.php:123
+msgid "Please enter a valid email address in the 'FROM' field."
+msgstr "Si prega di inserire un indirizzo email valido nel campo ' DA' ."
+
+#: class-easywpsmtp-admin.php:170
+msgid "Please enter a valid port in the 'SMTP Port' field."
+msgstr "Si prega di inserire una porta valida nel campo ' Porta SMTP ' ."
+
+#: class-easywpsmtp-admin.php:181
+msgid "Settings are not saved."
+msgstr "Impostazioni non salvate"
+
+#: class-easywpsmtp-admin.php:92
+msgid "Easy WP SMTP Settings"
+msgstr "Impostazioni Easy WP SMTP"
+
+#: class-easywpsmtp-admin.php:243
+msgid "This email address will be used in the 'From' field."
+msgstr "Questo indirizzo e-mail verrà utilizzato nel campo 'Da' "
+
+#: class-easywpsmtp-admin.php:250
+msgid "This text will be used in the 'FROM' field"
+msgstr "Questo testo verrà utilizzato nel campo ' DA'"
+
+#: class-easywpsmtp-admin.php:281
+msgid "SMTP Host"
+msgstr "Host SMTP"
+
+#: class-easywpsmtp-admin.php:284
+msgid "Your mail server"
+msgstr "Il tuo server di posta"
+
+#: class-easywpsmtp-admin.php:288
+msgid "Type of Encryption"
+msgstr "Tipo di Crittografia"
