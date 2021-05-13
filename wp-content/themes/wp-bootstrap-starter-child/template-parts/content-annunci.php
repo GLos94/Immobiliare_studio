@@ -18,7 +18,7 @@
         <div class="card-body">
             <img class="card-img-top news_img" src="<?php echo the_post_thumbnail_url();  ?>" >
             <div class="box_news_date px-5 pt-5"><?php echo get_the_date('j F Y')  ?></div>
-            <h5 class="px-5"><?php echo the_title(); ?></h5>
+            <h5 class="px-5 font-weight-bold"><?php echo the_title(); ?></h5>
             <div class="card-text box_news_excerpt px-5"><?php echo the_excerpt(); ?></div>
             <div class="px-5 pb-5">
                 <a class="btn btn-primary link_news" href="<?php echo the_permalink();  ?>">
@@ -29,3 +29,5 @@
     </div>
 
 </div>
+
+

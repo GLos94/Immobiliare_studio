@@ -28,10 +28,14 @@ if ( wp_is_mobile() ) {
 				// 	comments_template();
 				// endif;
 
+
 			endwhile; // End of the loop.
 			?>
 
+
 		</div><!-- #main -->
+
+
 	</section><!-- #primary -->
 
 <?php

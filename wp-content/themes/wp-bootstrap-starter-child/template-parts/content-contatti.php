@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-5 col-sm-12 mt-5 p-5">
+        <div class="col-lg-5 col-sm-12 mt-4 p-5">
             <div class="col-12 help">
                 <h1>Hai bisogno di informazioni?</h1>
                 <p>Contattaci compilando il form e inviando la tua richiesta.

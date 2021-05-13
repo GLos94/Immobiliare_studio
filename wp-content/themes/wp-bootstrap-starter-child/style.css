@@ -10,13 +10,23 @@ Version:        1.2
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
 
 html, body {
   overflow-x: hidden;
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Itim', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.polaroid {
+    font-family: 'Itim', cursive;
+    font-size: 1.1rem;
 }
 
 
@@ -27,12 +37,26 @@ header#masthead {
 
 #masthead .navbar-nav > li > a.nav-link {
     color: #1d3882 !important;
-    font-size: 17px !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+#masthead .navbar-nav > li > a.nav-link:hover {
+    font-weight: 700 !important;
+}
+
+
+
+.panoramica {
+    letter-spacing: 2px;
+    color: #2b4658;
+    /*font-style: oblique;*/
+    font-weight: 600;
 }
 
 .row_introduction img{
     width: 100%;
-    height: 513px;
+    height: 600px;
     object-fit: cover;
     object-position: center;
     filter: brightness(0.8);
@@ -43,27 +67,69 @@ header#masthead {
     color: #cdc8c8;
 }
 
+.chi_siamo .presentation_title {
+    color: #ff6647;
+}
+
+.servizi .presentation_title {
+    color: #b3bf46;
+}
+
+.assistenza .presentation_title {
+    color: #79d4fe;
+}
+
 .row_presentation h6 {
     font-size: 25px;
     font-weight: bold;
-    color: #ffffff;
+    letter-spacing: 2px;
+
+
 }
 
 .presentation_txt {
     white-space: pre-line;
     color: #ffffff;
+    font-size: 19px;
+    line-height: 1.7;
+
 }
 
-.assistenza {
-    background: #2e6285;
+
+.icon_1, .icon_2, icone_3 {
+   /* border-radius: 50%;*/
+   /* max-height: 100px;*/
+}
+
+.icon_1 {
+    max-height: 110px;
+    margin-bottom: 20px;
+}
+
+.icon_2 {
+    max-height: 120px;
+    margin-bottom: 20px;
+}
+
+.icon_3 {
+    max-height: 145px;
+}
+
+
+.chi_siamo {
+    background: #2b4658;
 }
 
 .servizi {
-    background: #0d446a;
+    background: #1b3710bd;
 }
 
-.chi_siamo {
-    background: #0c2c42;
+.assistenza {
+    background: #253966;
+}
+
+.more_info {
+    text-align: center;
 }
 
 /* Home */
@@ -175,6 +241,12 @@ header#masthead {
 }
 
 
+.row_presentation h6 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1d3882;
+}
+
 .row_annunci h6 {
     font-size: 30px;
     font-weight: bold;
@@ -186,12 +258,44 @@ header#masthead {
     object-fit: cover;
 }
 
+.news_card {
+    max-height: 600px;
+}
+
 .text-uppercase {
     color: #1d3882;
 }
 
 .text-muted {
     font-size: 15px;
+}
+
+.row_valutazione_immobile {
+  background: #E6F3F4;
+}
+
+.val {
+  border-radius: 3%;
+}
+
+.title_val {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2d5a89;
+}
+
+.text_val {
+    white-space: pre-line;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.txt_nome {
+    color: #2d5a89;
+}
+
+.btn_val {
+    width: 15%;
 }
 
 footer i{
@@ -262,13 +366,18 @@ footer i{
 }
 
 .help p {
-    white-space:pre-line
+    white-space:pre-line;
+    font-size: 19px;
 }
 
 .vieni_in_agenzia h1 {
     font-size:1.5rem;
     font-weight:bold;
     color:#101943;
+}
+
+.vieni_in_agenzia p {
+    font-size: 19px;
 }
 
 .google_map_contatti iframe {
@@ -316,6 +425,10 @@ footer i{
     margin-top:-5px !important
 }
 
+.info_contatti, .info_orari {
+    font-size: 18px;
+}
+
 .google_map iframe {
     border-radius: 30px !important;
     min-height: 400px;
@@ -335,6 +448,24 @@ footer i{
     color: #233882;
 }
 
+
+/* scroll to top */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #6675ff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
 
 /* single annunci */
 
@@ -457,6 +588,15 @@ img.thumb_pacchetti_indicators {
 
     .google_map_contatti iframe {
       border-radius: 20px !important;
+    }
+
+    .btn_val {
+        width: 30%;
+    }
+
+    #myBtn {
+        bottom: 160px !important;
+        right: 15px !important;
     }
 
   	html, body {
