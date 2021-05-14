@@ -28,3 +28,9 @@ add_filter(
     'excerpt_length',
     'wpdocs_custom_excerpt_length',
     999 );
+
+function enqueue_wow_style() {
+    wp_enqueue_style('animate-css',get_stylesheet_directory_uri() .'/scripts/node_modules/wow.js/css/libs/animate.css');
+    wp_enqueue_script('wow-js',get_stylesheet_directory_uri() .'/scripts/node_modules/wow.js/dist/wow.min.js');
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_wow_style' );

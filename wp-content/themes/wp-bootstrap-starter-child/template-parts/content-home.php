@@ -51,10 +51,15 @@ endwhile;
 wp_reset_postdata();
 ?>
 
+<?php  if(!wp_is_mobile()){ ?>
+    <script>
+        new WOW().init();
+    </script>
+<?php } ?>
 
 
 	<div class="container-fluid p-0">
-	    <div class="row row_introduction">
+	    <div class="row row_introduction wow fadeIn" data-wow-duration="3s">
             <div class="col-12">
             <img src="<?php echo get_stylesheet_directory_uri().'/images/panoramica.jpg' ?>" >
                 <div class="centered">
@@ -73,7 +78,7 @@ wp_reset_postdata();
             </div>
             <div class="col-12">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-12 chi_siamo text-center p-5">
+                    <div class="col-lg-4 col-sm-12 chi_siamo text-center p-5 wow bounceInLeft" data-wow-duration="3s">
                         <img class="icon_1" src="<?php echo get_stylesheet_directory_uri().'/images/estate-agents.png' ?>" alt="">
                         <!--<i class="fas fa-hands-helping"></i>-->
                         <h6 class="presentation_title mt-3">Chi siamo</h6>
@@ -82,7 +87,7 @@ wp_reset_postdata();
                             Un marchio che è diventato ben presto sinonimo di professionalità, affidabilità e riservatezza.
                         </p>
                     </div>
-                    <div class="col-lg-4 col-sm-12 servizi text-center p-5">
+                    <div class="col-lg-4 col-sm-12 servizi text-center p-5 wow fadeIn" data-wow-duration="3s">
                         <img class="icon_2" src="<?php echo get_stylesheet_directory_uri().'/images/RealEstate.png' ?>" alt="">
                         <!--<i class="fas fa-home"></i>-->
                         <h6 class="presentation_title mt-3">I nostri servizi</h6>
@@ -91,7 +96,7 @@ wp_reset_postdata();
                             oltre che di terreni sia agricoli che edificabili. Ogni nostra scelta è caratterizzata da grande serietà e continuità.
                         </p>
                     </div>
-                    <div class="col-lg-4 col-sm-12 assistenza text-center p-5">
+                    <div class="col-lg-4 col-sm-12 assistenza text-center p-5 wow bounceInRight" data-wow-duration="3s">
                         <img class="icon_3" src="<?php echo get_stylesheet_directory_uri().'/images/assistenza.png' ?>" alt="">
                         <!--<i class="fas fa-suitcase"></i>-->
                         <h6 class="presentation_title mt-3">Assistenza</h6>
@@ -112,7 +117,7 @@ wp_reset_postdata();
             <div class="col-12">
                 <div class="row">
                     <?php while ( $the_query->have_posts() ) :  $the_query->the_post(); ?>
-                        <div class="col-md-3">
+                        <div class="col-md-3 wow slideInRight" data-wow-duration="3s">
                             <div class="card mb-2 px-3">
                                 <img class="card-img-top" src="<?php echo the_post_thumbnail_url(); ?>"
                                      alt="Card image cap">
@@ -128,7 +133,7 @@ wp_reset_postdata();
             <div class="col-12 text-center p-5"><a href="<?php echo site_url('/annunci'); ?>" class="btn btn-secondary">Vedi tutti gli annunci</a></div>
         </div>
 
-        <div class="row row_valutazione_immobile p-5">
+        <div class="row row_valutazione_immobile p-5 wow fadeIn" data-wow-duration="3s">
             <div class="col-lg-6 col-sm-12">
               <img class="val" src="<?php echo get_stylesheet_directory_uri().'/images/REAL-ESTATE-02.png' ?>" alt="">
             </div>
